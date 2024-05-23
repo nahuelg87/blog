@@ -23,17 +23,17 @@
 {% endfor %}
 <i>
   <u>
-  <h1>Curso</h1>
+  <h1>Materias de la carrera: Soporte de Infraestructura</h1>
   </u>
   <br>
   </i>
   
 
 
-<a href="{% url 'curso_formulario' %}" class="btn btn-primary"> Crea tu propio curso aqui!!! </a>
+<a href="{% url 'curso_formulario' %}" class="btn btn-primary"> Carga tu materia aqui!!! </a>
 <br>
 <br>
-<a href="{% url 'busqueda2' %}" class="btn btn-primary" > Busca tu curso aqui!!! </a>
+<a href="{% url 'busqueda2' %}" class="btn btn-primary" > Busca tu materia aqui!!! </a>
 <br>
 <br>
 
@@ -41,10 +41,10 @@
     <tbody>
       <tr>
         <th>
-          <strong>Estamos estudiando el curso de:</strong>
+          <strong>Materias de la carrera:</strong>
         </th>
         <th>
-          <strong>La comision es:</strong>
+          <strong>Número de materia:</strong>
         </th>
       </tr>
       {% for curso in curso %} 

@@ -30,7 +30,7 @@
                 <a class="navbar-brand"    href="{% url 'inicio' %}">Inicio</a>
                 <a class="navbar-brand"    href="{% url 'ubicacion' %}">Ubicacion</a>
                 <a class="navbar-brand"    href="{% url 'alumnos' %}">Estudiantes</a>
-                <a class="navbar-brand"    href="{% url 'curso' %}">Curso</a>
+                <a class="navbar-brand"    href="{% url 'curso' %}">Carrera</a>
                 <a class="navbar-brand"    href="{% url 'pages' %}">Blog</a>
                 <a class="navbar-brand"    href="{% url 'about' %}">Acerca</a>
                 {% if user.is_authenticated %}
@@ -44,7 +44,7 @@
             </div>
         </nav>
 
-    <video autoplay="autoplay" loop="loop" id="video_background" preload="auto" volume="50"/>
+    <video autoplay="autoplay" loop="loop" id="video_background" preload="auto" muted/>
 <source src={% static 'alumnos/assets/space01.mp4' %}/>
     </video/>
         <section style="padding:80px;">
@@ -67,18 +67,18 @@
                             <li class="list-inline-item"><a href="{% url 'contacto' %}">Contacto</a></li>
                       
                         </ul>
-                        <p class="text-muted small mb-4 mb-lg-0">&copy; Nicolas Demarque, Nicolas Bocassi, Nahuel Genari - 2022.</p>
+                        <p class="text-muted small mb-4 mb-lg-0">&copy; ISTEA - Programación: Grupo 3 - 2024.</p>
                     </div>
                     <div class="col-lg-6 h-100 text-center text-lg-end my-auto">
                         <ul class="list-inline mb-0">
                             <li class="list-inline-item me-4">
-                                <a href="https://es-la.facebook.com/Coderhouse/"><i class="bi-facebook fs-3"></i></a>
+                                <a href="https://www.facebook.com/ISTEA.ARG"><i class="bi-facebook fs-3"></i></a>
                             </li>
                             <li class="list-inline-item me-4">
-                                <a href="https://twitter.com/coderhouse?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="bi-twitter fs-3"></i></a>
+                                <a href="https://twitter.com/educacionit"><i class="bi-twitter fs-3"></i></a>
                             </li>
                             <li class="list-inline-item">
-                                <a href="https://www.instagram.com/coderhouse/?hl=es"><i class="bi-instagram fs-3"></i></a>
+                                <a href="https://www.instagram.com/educacionit/"><i class="bi-instagram fs-3"></i></a>
                             </li>
                         </ul>
                     </div>
