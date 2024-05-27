@@ -58,7 +58,7 @@ ROOT_URLCONF = 'coder_proyecto_final.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['/Users/nahuel.genari/server-web/clon/entrega1-bocassi/coder_proyecto_final/alumnos/templates/'],
+        'DIRS': [os.path.join(BASE_DIR, 'alumnos/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
